@@ -1,0 +1,118 @@
+.buy-now-button{
+    background-image: linear-gradient(to bottom, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 100% );
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+    cursor: pointer;
+}
+.carousel-indicators li {
+    background-color: #CECECE;
+    width: 10px;
+    height: 30px;
+    border-radius: 10px;
+    }
+    .carousel-indicators li.active {
+    width: 10px;
+    height: 30px;
+    background: linear-gradient(142deg, #FF9C35 0%, #FFD019 100%);
+    border-radius: 25px;
+    }
+.carousel-item{
+        padding: 20px 40px;
+}
+
+.slidebar{
+    background-image: url(hot-gadgets/best-product.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 30%;
+    height: 400px;
+}
+.container{
+    margin-bottom: 80px;
+}
+#color{
+    color: rgb(255, 145, 0);
+}
+.card{
+    border: none;
+    box-shadow: 5px 5px 10px lightgray;
+    border-radius: 20px;
+}
+.small-catagory{
+    border: white;
+    margin: auto;
+    padding: 5%;
+    width: 80%;
+    height: 180px;
+    box-shadow: 5px 5px 10px lightgray;
+    border-radius: 10px 0px;
+}
+.card-footer{
+    background-color: rgb(255, 255, 255);
+    border-top: none;
+}
+.card-body{
+    text-align: center;
+}
+
+
+.uderline-small{
+    display: inline-block;
+    position: relative;
+    padding-bottom: 10px;
+  }
+  .uderline-small::after{
+    content:'';
+    height: 5px;
+    width: 120px;
+    background-color: orange;
+    position: absolute;
+    left: 45%;
+    bottom: 0%;
+    border-radius: 30px;
+  }
+.pale-order img{
+    width: 100%;
+  }
+.img-border{
+    box-shadow: 1px 1px 10px rgb(240, 238, 238);
+    padding: 30px 40px 20px 40px;
+    margin: 20px;
+    
+}
+.img-border p{
+    padding-top: 20px;
+}
+.row{
+    padding-bottom: 20px;
+}
+.pole-order img{
+    width: 100%;
+}
+
+.border-img{
+    width: 100px;
+    height: 7px;
+    border-radius: 10px;
+}
+#subscribers{
+    height: 200px;
+    background-color: #fcf0f4;
+    border-radius: 10px;
+}
+.icon-centre img{
+    width: 3%;
+    padding: 3px;
+}
+.centre img{
+    width: 25%;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+.bg-2{
+    background-image: url(hot-gadgets/bg2.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
